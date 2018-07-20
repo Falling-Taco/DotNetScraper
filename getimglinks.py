@@ -22,7 +22,7 @@ for line in f:
 		if a == 1:
 			fx.write(img2[0]+",")
 		else:
-			fx.write("\"http://www.homeschoolerpost.com/Files/"+img+"\",")
+			fx.write("\"http://www..com/Files/"+img+"\",")
 
 	for img in all_ujpgs:
 		b = 0
@@ -48,7 +48,7 @@ for line in f:
 		if c == 1:
 			fx.write(img2[0])
 		else:
-			fx.write("\"http://www.homeschoolerpost.net/Files/"+img+"\",")
+			fx.write("\"http://www..net/Files/"+img+"\",")
 
 	for img in all_pngs:
 		d = 0
@@ -61,4 +61,4 @@ for line in f:
 		if d == 1:
 			fx.write(img2[0])
 		else:
-			fx.write("\"http://www.homeschoolerpost.net/Files/"+img+"\",")
+			fx.write("\"http://www..net/Files/"+img+"\",")
