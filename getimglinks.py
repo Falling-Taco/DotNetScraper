@@ -35,7 +35,7 @@ for line in f:
 		if b == 1:
 			fx.write(img2[0])
 		else:
-			fx.write("\"http://www.homeschoolerpost.net/Files/"+img+"\",")
+			fx.write("\"http://www..net/Files/"+img+"\",")
 
 	for img in all_jpegs:
 		c = 0
